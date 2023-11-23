@@ -1,0 +1,55 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  color: #f1f3f3;
+  text-align: left;
+  font-size: 6rem;
+  background-color: #330066;
+  padding: 15px;
+  border-radius: 26px;
+  text-align: center;
+}
+
+.title:hover{
+  color:#330066;
+  background-color: white;
+  transition: 0.7s;
+}
+
+img{
+  height: 20rem;
+  width: 25rem;
+  border-radius: 15px;
+  
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  
+}
+
+.angrylady{
+  height: 20rem;
+  width: auto;
+  border-radius: 15px;
+}
+
+.recipescontainer{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 3rem;
+  
+}
+
+.recipescontainer p {
+  text-align: center;
+  font-size: 3rem;
+}
+
